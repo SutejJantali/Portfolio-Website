@@ -1,3 +1,7 @@
+require('dotenv').config();
+
+
+
 function toggleMobileMenu(){
 	document.getElementById("menu").classList.toggle("active");
 }
@@ -20,4 +24,12 @@ function github(){
 
 function resume(){
 	location.href = 'https://drive.google.com/file/d/1s7AcW10GwzDeLzbY1ZwnD6zgXQ7nwN3p/view?usp=sharing';
+}
+
+function Contactme(){
+	window.alert("My Email: iamsutej@gmail.com \nPlease don't hesitate to contact me; I would be delighted to connect with you.");
+}
+
+function hackerrank(){
+	location.href = 'https://www.hackerrank.com/profile/iamsutej';
 }
